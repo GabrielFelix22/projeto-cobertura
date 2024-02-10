@@ -1,0 +1,170 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 176px 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
+    color: #FFFFFF;     /* cor original 172334 */
+    cursor: pointer;
+    margin: 20px;
+}
+
+.button-header {
+    border-radius: 6px;
+    border: none; /* cor original 4CB538 */
+    background: #4CB538; /* cor original 6FBF44 */
+    width: 124px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    color: #000000;  /* cor original FFF */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 40px;
+}
+
+.button-header:hover {
+    background: #FFFFFF;
+    transition: .5s ease-in-out;
+    color: #000000;
+}
+
+.logo-principal {
+    width: 596px;
+    height: 450px;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    width: 500px;
+    margin: 90px 0 0px 90px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 90px;
+    color: #FFFFFF;   /* cor original 161a49 */
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #FFFFFF;   /* cor original 4B505A */
+    width: 700px;
+    height: 150px;
+}
+
+.button-main {
+    background: #4CB538;    /* cor original 6FBF44 */
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: #000000;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+.button-main:hover {
+    background: #FFFFFF;
+    transition: .5s ease-in-out;
+    color: #000000;
+}
+
+.whats {
+    width: 50px;
+    display: block;
+}
+
+.logo-whatsapp {
+    margin-left: 95%;
+    position: absolute;
+    bottom: 45px;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+@media screen and (max-width: 1345px) {
+    section {
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo-principal {
+        display: block;
+        height: auto;
+        width: 55%;
+        position: static;
+        margin: 50px 95px;
+    }
+
+    header {
+        display: none;
+    }
+
+    section {
+        text-align: center;
+        position: fixed;
+        margin: 50px 110px 50px 0px;
+    }
+
+    p {
+        width: 95%;
+        font-size: 14px;
+        line-height: 2.2;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 30px;
+        width: 96%;
+    }
+
+    .button-main {
+        width: 45%;
+    }
+    .logo-whatsapp {
+        right: 10%;
+        margin-bottom: 25px;
+    }
+}
